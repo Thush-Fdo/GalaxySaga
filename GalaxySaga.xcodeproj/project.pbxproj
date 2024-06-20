@@ -9,24 +9,40 @@
 /* Begin PBXBuildFile section */
 		F9FE4EDD2C24AE1E004315C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4EDC2C24AE1E004315C0 /* AppDelegate.swift */; };
 		F9FE4EDF2C24AE1E004315C0 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4EDE2C24AE1E004315C0 /* GameScene.sks */; };
-		F9FE4EE12C24AE1E004315C0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4EE02C24AE1E004315C0 /* Actions.sks */; };
 		F9FE4EE32C24AE1E004315C0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4EE22C24AE1E004315C0 /* GameScene.swift */; };
 		F9FE4EE52C24AE1E004315C0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4EE42C24AE1E004315C0 /* GameViewController.swift */; };
 		F9FE4EE82C24AE1E004315C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4EE62C24AE1E004315C0 /* Main.storyboard */; };
 		F9FE4EEA2C24AE21004315C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4EE92C24AE21004315C0 /* Assets.xcassets */; };
 		F9FE4EED2C24AE21004315C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4EEB2C24AE21004315C0 /* LaunchScreen.storyboard */; };
+		F9FE4EF42C24B033004315C0 /* StarField.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4EF32C24B033004315C0 /* StarField.sks */; };
+		F9FE4EF82C24B46A004315C0 /* EnemyNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4EF62C24B469004315C0 /* EnemyNode.swift */; };
+		F9FE4EF92C24B46A004315C0 /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4EF72C24B46A004315C0 /* ProgressBar.swift */; };
+		F9FE4EFC2C24B4CD004315C0 /* Bundle+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4EFB2C24B4CD004315C0 /* Bundle+Ext.swift */; };
+		F9FE4F022C24B535004315C0 /* waves.json in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4EFE2C24B535004315C0 /* waves.json */; };
+		F9FE4F032C24B535004315C0 /* Wave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4EFF2C24B535004315C0 /* Wave.swift */; };
+		F9FE4F042C24B535004315C0 /* enemy-types.json in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4F002C24B535004315C0 /* enemy-types.json */; };
+		F9FE4F052C24B535004315C0 /* EnemyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FE4F012C24B535004315C0 /* EnemyType.swift */; };
+		F9FE4F072C24BF9A004315C0 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = F9FE4F062C24BF9A004315C0 /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F9FE4ED92C24AE1E004315C0 /* GalaxySaga.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalaxySaga.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9FE4EDC2C24AE1E004315C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F9FE4EDE2C24AE1E004315C0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		F9FE4EE02C24AE1E004315C0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		F9FE4EE22C24AE1E004315C0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		F9FE4EE42C24AE1E004315C0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		F9FE4EE72C24AE1E004315C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9FE4EE92C24AE21004315C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9FE4EEC2C24AE21004315C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F9FE4EF32C24B033004315C0 /* StarField.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarField.sks; sourceTree = "<group>"; };
+		F9FE4EF62C24B469004315C0 /* EnemyNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyNode.swift; sourceTree = "<group>"; };
+		F9FE4EF72C24B46A004315C0 /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		F9FE4EFB2C24B4CD004315C0 /* Bundle+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Ext.swift"; sourceTree = "<group>"; };
+		F9FE4EFE2C24B535004315C0 /* waves.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = waves.json; sourceTree = "<group>"; };
+		F9FE4EFF2C24B535004315C0 /* Wave.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wave.swift; sourceTree = "<group>"; };
+		F9FE4F002C24B535004315C0 /* enemy-types.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "enemy-types.json"; sourceTree = "<group>"; };
+		F9FE4F012C24B535004315C0 /* EnemyType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyType.swift; sourceTree = "<group>"; };
+		F9FE4F062C24BF9A004315C0 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +75,11 @@
 		F9FE4EDB2C24AE1E004315C0 /* GalaxySaga */ = {
 			isa = PBXGroup;
 			children = (
+				F9FE4F082C24C2FF004315C0 /* GameScenes */,
+				F9FE4EFD2C24B51F004315C0 /* Resources */,
+				F9FE4EFA2C24B4AA004315C0 /* Extensions */,
+				F9FE4EF52C24B454004315C0 /* Model */,
 				F9FE4EDC2C24AE1E004315C0 /* AppDelegate.swift */,
-				F9FE4EDE2C24AE1E004315C0 /* GameScene.sks */,
-				F9FE4EE02C24AE1E004315C0 /* Actions.sks */,
 				F9FE4EE22C24AE1E004315C0 /* GameScene.swift */,
 				F9FE4EE42C24AE1E004315C0 /* GameViewController.swift */,
 				F9FE4EE62C24AE1E004315C0 /* Main.storyboard */,
@@ -69,6 +87,44 @@
 				F9FE4EEB2C24AE21004315C0 /* LaunchScreen.storyboard */,
 			);
 			path = GalaxySaga;
+			sourceTree = "<group>";
+		};
+		F9FE4EF52C24B454004315C0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE4EF62C24B469004315C0 /* EnemyNode.swift */,
+				F9FE4EF72C24B46A004315C0 /* ProgressBar.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F9FE4EFA2C24B4AA004315C0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE4EFB2C24B4CD004315C0 /* Bundle+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F9FE4EFD2C24B51F004315C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE4F002C24B535004315C0 /* enemy-types.json */,
+				F9FE4F012C24B535004315C0 /* EnemyType.swift */,
+				F9FE4EFE2C24B535004315C0 /* waves.json */,
+				F9FE4EFF2C24B535004315C0 /* Wave.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F9FE4F082C24C2FF004315C0 /* GameScenes */ = {
+			isa = PBXGroup;
+			children = (
+				F9FE4EDE2C24AE1E004315C0 /* GameScene.sks */,
+				F9FE4EF32C24B033004315C0 /* StarField.sks */,
+				F9FE4F062C24BF9A004315C0 /* Explosion.sks */,
+			);
+			path = GameScenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,10 +186,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9FE4EE82C24AE1E004315C0 /* Main.storyboard in Resources */,
+				F9FE4F042C24B535004315C0 /* enemy-types.json in Resources */,
 				F9FE4EDF2C24AE1E004315C0 /* GameScene.sks in Resources */,
+				F9FE4EF42C24B033004315C0 /* StarField.sks in Resources */,
 				F9FE4EEA2C24AE21004315C0 /* Assets.xcassets in Resources */,
+				F9FE4F072C24BF9A004315C0 /* Explosion.sks in Resources */,
+				F9FE4F022C24B535004315C0 /* waves.json in Resources */,
 				F9FE4EED2C24AE21004315C0 /* LaunchScreen.storyboard in Resources */,
-				F9FE4EE12C24AE1E004315C0 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +205,11 @@
 			files = (
 				F9FE4EE32C24AE1E004315C0 /* GameScene.swift in Sources */,
 				F9FE4EE52C24AE1E004315C0 /* GameViewController.swift in Sources */,
+				F9FE4F052C24B535004315C0 /* EnemyType.swift in Sources */,
+				F9FE4EF82C24B46A004315C0 /* EnemyNode.swift in Sources */,
+				F9FE4EFC2C24B4CD004315C0 /* Bundle+Ext.swift in Sources */,
+				F9FE4F032C24B535004315C0 /* Wave.swift in Sources */,
+				F9FE4EF92C24B46A004315C0 /* ProgressBar.swift in Sources */,
 				F9FE4EDD2C24AE1E004315C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,8 +368,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -313,6 +377,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.ontash.GalaxySaga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -332,8 +400,8 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeRight;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -341,6 +409,10 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = net.ontash.GalaxySaga;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

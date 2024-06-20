@@ -2,7 +2,7 @@
 //  EnemyNode.swift
 //  GalaxySaga
 //
-//  Created by 101 on 2022/10/10.
+//  Created by Thush-Fdo on 2022/10/10.
 //
 
 import SpriteKit
@@ -50,6 +50,7 @@ class EnemyNode: SKSpriteNode {
         let sequence = SKAction.sequence([movement, .removeFromParent()])
         run(sequence)
     }
+    
     func fire() {
         let weaponType = "\(type.name)Weapon"
 

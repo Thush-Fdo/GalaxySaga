@@ -2,7 +2,7 @@
 //  ProgressBar.swift
 //  GalaxySaga
 //
-//  Created by 101 on 2022/10/14.
+//  Created by Thush-Fdo on 2022/10/14.
 //
 
 import SpriteKit

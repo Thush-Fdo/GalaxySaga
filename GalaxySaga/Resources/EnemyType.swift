@@ -2,7 +2,7 @@
 //  EnemyType.swift
 //  GalaxySaga
 //
-//  Created by 101 on 2022/10/7.
+//  Created by Thush-Fdo on 2022/10/7.
 //
 
 import SpriteKit

@@ -2,7 +2,7 @@
 //  Wave.swift
 //  GalaxySaga
 //
-//  Created by 101 on 2022/10/10.
+//  Created by Thush-Fdo on 2022/10/10.
 //
 
 import SpriteKit
